@@ -33,5 +33,7 @@
     *. application.properties : management.endpoints.web.exposure.include=* (/actuator/refresh 요청을 가능하게 할 경우 선언 필요)
 
     *. bootstrap.yml : spring.application.name=prod (config server 가 참조하는 파일의 prefix 와 일치해야함.)
+
+    *. -Dspring.profiles.active : 주입할 설정 환경 지정
 ```
 
