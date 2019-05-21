@@ -1,0 +1,7 @@
+version: '2'
+services: 
+  default:
+    image: shouldwhat/config-server
+    ports:
+      - "8080:8080"
+    ## options as below
