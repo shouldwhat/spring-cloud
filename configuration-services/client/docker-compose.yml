@@ -1,0 +1,7 @@
+version: '2'
+services: 
+  default:
+    image: shouldwhat/config-client
+    ports:
+      - "8090:8090"
+    ## options as below
