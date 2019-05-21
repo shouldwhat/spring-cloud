@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: cs        # config server에서 참조하는 설정 파일의 prefix로 선언해야함. (cs-dev.yml, cs-prod.yml)
+  cloud:
+    config:
+      uri: http://localhost:8080
