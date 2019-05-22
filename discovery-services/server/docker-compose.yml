@@ -1,0 +1,7 @@
+version: '2'
+services: 
+  default:
+    image: shouldwhat/discovery-server
+    ports:
+      - "8761:8761"
+    ## options as below
