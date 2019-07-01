@@ -3,7 +3,6 @@
 * **프로젝트 소개**
 ```
     *. 본 프로젝트는 spring cloud 의 service discovery(eureka) 라이브러리를 사용하여 샘플 프로젝트 (service discovery server application) 를 구성합니다.
-
 ```
 
 -----------------------------------
@@ -20,4 +19,6 @@
 * **요청 인터페이스**
 ```
     *. 대시보드 : http://localhost:8761
+
+    *. 등록된 앱 목록 : http://localhost:8761/eureka/apps
 ```
